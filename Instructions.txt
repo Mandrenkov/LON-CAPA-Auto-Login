@@ -1,4 +1,4 @@
-  1.  Download the .txt (or .js) script file.  Alternatively, just open the file to get access to its contents.
+  1.  Download the "LON-CAPA Auto Login.txt" (or .js) script file.  Alternatively, just open the file to get access to its contents.
   
   2.  View:
 
