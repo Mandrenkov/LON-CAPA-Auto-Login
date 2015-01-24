@@ -5,10 +5,24 @@
 // @include https://loncapa.physics.mcmaster.ca
 // @description Auto-Login for LON-CAPA
 // @version     1.0
+// @author      Mikhail Andrenkov
 // @grant       none
 // ==/UserScript==
 
-// See Tutorial Video for Usage Instructions
+/*   See tutorial video (http://youtu.be/lD3bU0iwHDI) for setup/usage instructions.
+
+     This script automatically logs a user into LON-CAPA, selects the "Physics 1E03" course,
+   and skips the "Practice Assignment" page that is opened by default.  All functionality 
+   can be easily modified (i.e., select a different course instead).
+   
+     Note: The script and it's corresponding data (i.e., field information) is stored 
+   locally on your browser.  There is absolutely no way for me to access your personal script.
+   That being said, if your browser auto-fills your username and password (without you clicking
+   on the fields), you can probably get away with deleting lines 27-40.
+   
+      If you have any suggestions or feedback, let me know.  I know the code is not as efficient
+    as could be: I originally wrote this script as a small personal endeavour.
+*/
 
 //Current System Time (Milliseconds)
 var curSysMillis = Math.round((new Date().getTime())/1000)
