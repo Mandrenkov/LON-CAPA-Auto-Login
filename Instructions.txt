@@ -1,4 +1,6 @@
-  View:
+  1.  Download the .txt (or .js) script file.  Alternatively, just open the file to get access to its contents.
+  
+  2.  View:
 
-    http://youtu.be/lD3bU0iwHDI
+         http://youtu.be/lD3bU0iwHDI
 
