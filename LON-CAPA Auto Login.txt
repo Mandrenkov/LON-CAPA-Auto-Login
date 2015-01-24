@@ -32,7 +32,7 @@ $('#uname').val('MacID');
 
 //Cycle Through Potential Password Field IDs (Field ID Dynamically Changes Based on Server Time)
 for (var timeDisc = curSysMillis+10; timeDisc > curSysMillis-30;timeDisc--){
-    //Guess Password Field ID
+    //Attempt to Guess Password Field ID
     var passID = '#upass' + timeDisc;
     //Set LON-CAPA Password
     $(passID).val('Student Number');
