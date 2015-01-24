@@ -9,7 +9,7 @@
 // @grant       none
 // ==/UserScript==
 
-/*   See tutorial video (http://youtu.be/lD3bU0iwHDI) for setup/usage instructions.
+/*   See tutorial video (http://youtu.be/4-gB_yvnMX0) for setup/usage instructions.
 
      This script automatically logs a user into LON-CAPA, selects the "Physics 1E03" course,
    and skips the "Practice Assignment" page that is opened by default.  All functionality 
